@@ -7,7 +7,8 @@ fn instantiate_sort<T: Ord>(v: &mut [T]) {
     // v.sort();
     // v.sort_unstable();
 
-    ipnsort::sort(v);
+    // ipnsort::sort(v);
+    driftsort::sort(v);
 }
 
 #[inline(never)]

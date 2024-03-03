@@ -6,9 +6,9 @@ version = 3
 name = "binary-size-measurement"
 version = "0.1.0"
 dependencies = [
- "ipnsort",
+ "driftsort",
 ]
 
 [[package]]
-name = "ipnsort"
+name = "driftsort"
 version = "0.1.0"
