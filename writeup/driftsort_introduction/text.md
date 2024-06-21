@@ -124,7 +124,7 @@ Result: The interface remains the same.
 
 The same structure as the one found in [introsort](https://en.wikipedia.org/wiki/Introsort) is used by driftsort to avoid the well-known O(N^2) worst-case of quicksort. Once a recursion depth of 2 * log2(N) is reached, it switches to a different algorithm.
 
-However, in the case of driftsort the algorithm it switches to mergesort. This ensures it will never call quicksort again, only using the guaranteed O(N * log(N)) mergesort routines.
+However, in the case of driftsort the algorithm it switches to is mergesort. This ensures it will never call quicksort again, only using the guaranteed O(N * log(N)) mergesort routines.
 
 > Guaranteed O(N) comparisons for fully ascending and descending inputs.
 
